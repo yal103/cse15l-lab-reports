@@ -57,7 +57,7 @@ For example: \
 
 ---
 
-### Running Commands
+### RUNNING COMMANDS
 Here is a list of commands you can try running on both **your computer** and the **remote computer**:
 
 * `cd`
