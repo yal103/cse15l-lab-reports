@@ -46,7 +46,9 @@ For example: \
 
 3. You will be asked to enter the password to your CSE 15L course-specific account.
     > Note: What you type will not visibly appear in the terminal but will be inputed.
-
+    
+    <img src="Password.png" width="75%" length="75%">
+    
 4. Once you are successfully logged in, your terminal should display something like this.
 
     <img src="Login.png" width="55%" length="55%"> 
