@@ -7,8 +7,9 @@ This is a quick tutorial on how to log into a course-specific account on <mark>`
 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The window should look something like this.
      
-     ![VSCode]
-     
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="VSCode.png" width="40%" length="40%">
+
+2. 
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are using a **Windows** device, make sure that you have <mark>`git`</mark> downloaded.
 
