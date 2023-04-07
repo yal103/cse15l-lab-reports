@@ -1,5 +1,9 @@
 # Lab Report 1 - Remote Access and FileSystem
 
+**Yangyang Liu \
+CSE 15L Section B02 \
+PID: A17360266**
+
 This is a quick tutorial on how to log into a course-specific account on `ieng6` and connect to a remote computer over the internet.
 
 ---
@@ -45,3 +49,27 @@ For example: \
 
 4. Once you are successfully logged in, your terminal should display something like this.
 
+    <img src="Login.png" width="55%" length="55%"> 
+    
+    Your terminal is now connected to a computer in the CSE basement! Any commands you run on your terminal will run on that computer.
+
+---
+
+### Running Commands
+Here is a list of commands you can try running on both **your computer** and the **remote computer**:
+
+* `cd`
+* `cd ~`
+* `ls`
+* `ls -lat`
+* `ls -a`
+* `ls <directory>` where `<directory>` is
+    `/home/linux/ieng6/<course>/<username>` where `<course>` is the name of your
+    CSE 15L course (eg. cse15lsp23) and `<username>` is your course-specific username (eg. cs15lsp23mh)
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+
+To **log out** of the remote server, use:
+
+* Ctrl + D
+* Run the command `exit`
