@@ -2,17 +2,21 @@
 
 This is a quick tutorial on how to log into a course-specific account on `ieng6` and connect to a remote computer over the internet.
 
+---
+
 ### Setup
-1. Open Visual Studio Code
+1. Open Visual Studio Code.
 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The window should look something like this.
+   The window should look something like this.
      
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="VSCode.png" width="40%" length="40%">
+   <img src="VSCode.png" width="40%" length="40%"> 
 
-2. 
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are using a **Windows** device, make sure that you have `git` downloaded.
+2. *Skip to Step 3 if you are on MacOS.* If you are using a **Windows** device, make sure that you have 'git' downloaded.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download Git for Windows](https://gitforwindows.org/)
+    [Download Git for Windows](https://gitforwindows.org/)
 
-After installing git, follow the these [steps](https://stackoverflow.com/a/50527994) to set your default terminal to use 
+    After installing git, follow the these [steps](https://stackoverflow.com/a/50527994) to set your default terminal to use 'git bash' in Visual Studio Code.
+
+3. Open a terminal in Visual Studio Code
+    - On **MacOS**, press control + ` , or use the menu option Terminal→New Terminal
+        
