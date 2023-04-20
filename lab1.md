@@ -78,6 +78,7 @@ Here is a list of commands you can try running on both **your computer** and the
 
 8. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
 ```
+**NOTE: Code Block does not appear in PDF version.**
 
 Here is an example of a combination of the above commands:
 
