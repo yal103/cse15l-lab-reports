@@ -81,7 +81,7 @@ Here is a list of commands you can try running on both **your computer** and the
 
 Here is an example of a combination of the above commands:
 
-
+<img src="Commands.png" width="50%" length="50%">
 
 To **log out** of the remote server, use:
 
