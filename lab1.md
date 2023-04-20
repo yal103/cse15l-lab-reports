@@ -11,7 +11,7 @@ This is a quick tutorial on how to log into a course-specific account on `ieng6`
 ### SETUP
 1. Find your CSE 15L course-specific account [here](<https://sdacs.ucsd.edu/~icc/index.php>). Use this [guide](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view?usp=share_link) to reset your password.
     > Note that it may take several minutes for the password reset to take effect.
-2. Open Visual Studio Code.
+2. Open Visual Studio Code. If you don't already have it downloaded, download it [here](https://code.visualstudio.com/download).
 
    The window should look something like this.
      
@@ -59,17 +59,29 @@ For example: \
 
 ### RUNNING COMMANDS
 Here is a list of commands you can try running on both **your computer** and the **remote computer**:
+```
+1. cd
 
-* `cd`
-* `cd ~`
-* `ls`
-* `ls -lat`
-* `ls -a`
-* `ls <directory>` where `<directory>` is
-    `/home/linux/ieng6/<course>/<username>` where `<course>` is the name of your
-    CSE 15L course (eg. cse15lsp23) and `<username>` is your course-specific username (eg. cs15lsp23mh)
-* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+2. cd ~
+
+3. ls
+
+4. ls -lat
+
+5. ls -a
+
+6. ls <directory> where "<directory>" is
+    "/home/linux/ieng6/<course>/<username>" where "<course>" is the name of your
+    CSE 15L course (eg. cse15lsp23) and "<username>" is your course-specific username (eg. cs15lsp23mh)
+    
+7. cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+
+8. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+```
+
+Here is an example of a combination of the above commands:
+
+
 
 To **log out** of the remote server, use:
 
