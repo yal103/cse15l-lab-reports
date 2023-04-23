@@ -51,4 +51,50 @@ class StringServer {
     }
 }
 ```
-  
+
+### Screenshot #1
+`/add-message?s=firstWord`
+
+<img src="firstWord.png" width="50%" length="50%">
+
+Which methods in your code are called? What are the relevant arguments to those methods, and the values of any relevant fields of the class? How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+* `handleRequest()`
+    - Argument(s): `http://localhost:5454/add-message?s=secondWord`
+* `getPath()` x3
+* `equals()`
+* `contains()`
+* `System.out.println()`
+* `getQuery()`
+* `split()`
+* `equals()`
+
+
+
+
+## Part 2 - Bugs
+### `reverseInPlace` in `ArrayExamples.java`
+1. Failure-Inducing Input
+
+```java
+@Test
+public void testReverseInPlace() {
+    int[] input = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input);
+}
+```
+
+2. *Nonfailure*-Inducing Input
+
+```java
+@Test public void testReverseInPlace() {
+    int[] input = {0};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{0}, input);
+}
+```
+
+3. Symptoms
+    - Passed Test:
+    
