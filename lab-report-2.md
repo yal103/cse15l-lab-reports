@@ -85,6 +85,7 @@ public void testReverseInPlace() {
 }
 ```
 
+
 2. *Nonfailure*-Inducing Input
 
 ```java
@@ -95,6 +96,7 @@ public void testReverseInPlace() {
 }
 ```
 
+
 3. Symptoms
     - Passed Test:
     
@@ -102,4 +104,35 @@ public void testReverseInPlace() {
     
     - Failed Test:
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="failedTest.png" width="75%" length="75%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="testFail.png" width="75%" length="75%">
+
+
+
+4. Bug
+
+    *BEFORE* code change:
+    ```java
+    static void reverseInPlace(int[] arr) {
+         for(int i = 0; i < arr.length; i += 1) {  // bug in for-loop
+           arr[i] = arr[arr.length - i - 1]; // bug in method body
+         }
+    }
+    ```
+    
+    *AFTER* code change:
+    ```java
+    static void reverseInPlace(int[] arr) {
+         for(int i = 0; i < arr.length/2; i += 1) {  // change to arr.length
+           int temp = arr[i];  // added line
+           arr[i] = arr[arr.length - i - 1];
+           arr[arr.length - i - 1] = temp;  // added line
+         }
+    }
+    ```
+
+## Part 3 - Reflection
+
+    I learned a lot about servers during the Week 2 Lab. I didn't know that a (simple) server was so easy to start.
+    It only requires two short Java files for you start your own server. From that lab, I also learned how the "?"
+    query could be used in websites. All the things we learned about servers and URLs relates back to the first couple
+    weeks where we learned about paths.
