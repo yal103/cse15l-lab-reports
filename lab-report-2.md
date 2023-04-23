@@ -98,3 +98,8 @@ public void testReverseInPlace() {
 3. Symptoms
     - Passed Test:
     
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="passedTest.png" width="75%" length="75%">
+    
+    - Failed Test:
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="failedTest.png" width="75%" length="75%">
