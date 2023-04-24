@@ -27,7 +27,6 @@ class StringHandler implements URLHandler {
             return str;
         }
         else if (url.getPath().contains("/add-message")) {
-            System.out.println("Path: " + url.getPath());
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 str += (parameters[1] + "\n");
@@ -57,19 +56,46 @@ class StringServer {
 
 <img src="firstWord.png" width="50%" length="50%">
 
-Which methods in your code are called? What are the relevant arguments to those methods, and the values of any relevant fields of the class? How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+Which methods in your code are called? What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-* `handleRequest()`
-    - Argument(s): `http://localhost:5454/add-message?s=secondWord`
-* `getPath()` x3
-* `equals()`
-* `contains()`
-* `System.out.println()`
-* `getQuery()`
-* `split()`
-* `equals()`
+>Note: Some method headers were found from Java documentation
+
+1. `handleRequest(URL url)` method of the `StringHandler` class
+    * Argument(s): `url` with value `http://localhost:5454/add-message?s=firstWord`
+    * Relevant Fields: `str` with initial value `""`<br><br>
+
+2. `getPath()` method of the `URI` class
+    * Called on `https://localhost:5454/add-message?s=firstWord` in `handleRequest` method
+    * No relevant arguments
+    * Returns the path component of the URI: `/add-message`<br><br>
+
+3. `equals(Object obj)`
+    * Called in the `handleRequest` method to compare path component of the URI with the string `"/"`
+    * Argument(s): `obj` with value `"\"`
+    * Returns boolean value `false`<br><br>
+
+4. `contains(CharSequence s)` method
+    * Called in the `handleRequest` method to check if path component of URI contains the string `"/add-message"`
+    * Arguments(s): `s` with value `"/add-message"`
+    * Returns boolean value `true`<br><br>
+
+5. `getQuery()` method of the `URI` class
+    * Called on `https://localhost:5454/add-message?s=firstWord` in `handleRequest` method
+    * No relevant arguments
+    * Returns the query component of the URI: `"s=firstWord"`<br><br>
+
+6. `split(String regex)` method
+    * Called on `"s=firstWord"` in `handleRequest` method
+    * Argument(s): `regex` with value `"="`
+    * Returns array of strings: `{"s", "firstWord"}`<br><br>
 
 
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+* In the `StringHandler` class:
+    * Field: str
+    * Initial value: `""`
+    * Changed value: `"firstWord\n"`
 
 
 ## Part 2 - Bugs
