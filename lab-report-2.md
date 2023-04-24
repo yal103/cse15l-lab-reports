@@ -30,7 +30,7 @@ class StringHandler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 str += (parameters[1] + "\n");
-                return parameters[1] + " has been added.";
+                return str;
             }
         }
         return "404 Not Found!";
