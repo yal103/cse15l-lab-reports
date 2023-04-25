@@ -194,7 +194,8 @@ public void testReverseInPlace() {
     There is a bug in this implementation for the `reverseInPlace` method. The method iterates through **every** element in the `int` array,
     replacing it with its compliment. However, this implementation causes every element to be switched twice, return an array with the same
     items in the same order as the original array.
-    
+    <br><br>
+
     *AFTER* code change:
     ```java
     static void reverseInPlace(int[] arr) {
@@ -208,7 +209,7 @@ public void testReverseInPlace() {
     
     Here, the method iterates only through the first half of the array and involves a new `temp` variable that stores the value of the original
     indexed value. As a result, every element is switched **once** and a reversed array is returned.
-    <br>
+    <br><br>
 
 ## Part 3 - Reflection
 
