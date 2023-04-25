@@ -51,6 +51,7 @@ class StringServer {
 }
 ```
 
+
 ### Screenshot #1
 `/add-message?s=firstWord`
 
@@ -98,6 +99,51 @@ How do the values of any relevant fields of the class change from this specific 
     * Changed value: `"firstWord\n"`
 
 
+### Screenshot #2
+`/add-message?s=secondWord`
+
+<img src="secondWord.png" width="50%" length="50%">
+
+Which methods in your code are called? What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+> The called methods are the same as in *Screenshot #1*.
+
+1. `handleRequest(URL url)` method of the `StringHandler` class
+    * Argument(s): `url` with value `http://localhost:5454/add-message?s=secondWord`
+    * Relevant Fields: `str` with initial value `"firstWord\n"`<br><br>
+
+2. `getPath()` method of the `URI` class
+    * Called on `https://localhost:5454/add-message?s=secondWord` in `handleRequest` method
+    * No relevant arguments
+    * Returns the path component of the URI: `/add-message`<br><br>
+
+3. `equals(Object obj)`
+    * Called in the `handleRequest` method to compare path component of the URI with the string `"/"`
+    * Argument(s): `obj` with value `"\"`
+    * Returns boolean value `false`<br><br>
+
+4. `contains(CharSequence s)` method
+    * Called in the `handleRequest` method to check if path component of URI contains the string `"/add-message"`
+    * Arguments(s): `s` with value `"/add-message"`
+    * Returns boolean value `true`<br><br>
+
+5. `getQuery()` method of the `URI` class
+    * Called on `https://localhost:5454/add-message?s=secondWord` in `handleRequest` method
+    * No relevant arguments
+    * Returns the query component of the URI: `"s=secondWord"`<br><br>
+
+6. `split(String regex)` method
+    * Called on `"s=secondWord"` in `handleRequest` method
+    * Argument(s): `regex` with value `"="`
+    * Returns array of strings: `{"s", "secondWord"}`<br><br>
+
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+* In the `StringHandler` class:
+    * Field: str
+    * Initial value: `"firstWord\n"`
+    * Changed value: `"firstWord\nsecondWord\n"`
+<br>
+
 ## Part 2 - Bugs
 ### `reverseInPlace` in `ArrayExamples.java`
 1. Failure-Inducing Input
@@ -110,7 +156,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input);
 }
 ```
-
+<br>
 
 2. *Nonfailure*-Inducing Input
 
@@ -121,7 +167,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{0}, input);
 }
 ```
-
+<br>
 
 3. Symptoms
     - Passed Test:
@@ -131,7 +177,7 @@ public void testReverseInPlace() {
     - Failed Test:
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="testFail.png" width="75%" length="75%">
-
+<br>
 
 
 4. Bug
@@ -145,6 +191,10 @@ public void testReverseInPlace() {
     }
     ```
     
+    There is a bug in this implementation for the `reverseInPlace` method. The method iterates through **every** element in the `int` array,
+    replacing it with its compliment. However, this implementation causes every element to be switched twice, return an array with the same
+    items in the same order as the original array.
+    
     *AFTER* code change:
     ```java
     static void reverseInPlace(int[] arr) {
@@ -155,10 +205,16 @@ public void testReverseInPlace() {
          }
     }
     ```
+    
+    Here, the method iterates only through the first half of the array and involves a new `temp` variable that stores the value of the original
+    indexed value. As a result, every element is switched **once** and a reversed array is returned.
+    <br>
 
 ## Part 3 - Reflection
 
-    I learned a lot about servers during the Week 2 Lab. I didn't know that a (simple) server was so easy to start.
-    It only requires two short Java files for you start your own server. From that lab, I also learned how the "?"
-    query could be used in websites. All the things we learned about servers and URLs relates back to the first couple
-    weeks where we learned about paths.
+I learned a lot about servers during the Week 2 Lab. I didn't know that a (simple) server was so easy to start.
+It only requires two short Java files for you start your own server. From that lab, I also learned how the "?"
+query could be used in websites. All the things we learned about servers and URLs relates back to the first couple
+weeks where we learned about paths.
+
+☺︎
