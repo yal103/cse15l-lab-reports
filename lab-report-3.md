@@ -7,7 +7,8 @@ PID: A17360266**
 I have chosen do research on the `grep` command.
 > I will be using the files and directories in `./technical` to show my examples. It is found [here](https://github.com/ucsd-cse15l-s23/stringsearch-data).
 
-</br>
+&nbsp;
+&nbsp;
 
 ---
 
@@ -15,7 +16,7 @@ I have chosen do research on the `grep` command.
 
 This `grep` command option allows you to make a search for a pattern, regardless of the letter case.
 
-</br>
+&nbsp;
 
 **Example 1:**
 
@@ -25,6 +26,7 @@ This `grep` command option allows you to make a search for a pattern, regardless
 This command searches for the text "CrEaTiVe" in all .txt files in `./technical/911report/`,ignoring the case of each letter. \
 It is useful when searching for words that have inconsistent capitalization. 
 
+&nbsp;
 
 **Example 2:**
 
@@ -34,9 +36,12 @@ It is useful when searching for words that have inconsistent capitalization.
           
 This command searches for the text "ERROR" in `./technical/plos/journal.pbio.0020047.txt`, ignoring the case of each letter. \
 Again, it's useful if you want to found a keyword that may be capitalized differently throughout the files.
-</br></br>
->Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> \
-</br>
+&nbsp;
+&nbsp;
+
+>Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> 
+
+&nbsp;
 
 ---
 
@@ -44,7 +49,7 @@ Again, it's useful if you want to found a keyword that may be capitalized differ
 
 This `grep` command option allows you to search for the number of lines that matches the pattern.
 
-</br>
+&nbsp;
 
 **Example 1:**
 
@@ -70,6 +75,7 @@ This `grep` command option allows you to search for the number of lines that mat
 This command displays the number of lines in each .txt file in the `./technical/911report/` that contains the pattern _"file"_.\
 This is useful if you want to get a quick overview of how many matches are found. 
 
+&nbsp;
 
 **Example 2:**
 
@@ -78,9 +84,12 @@ This is useful if you want to get a quick overview of how many matches are found
 
 This command displays the number of lines in `rr74.txt` located in the `./technical/biomed/` directory.
 Again, this is useful if you want to know how many lines in a file contain the word you are looking for.
-</br></br>
->Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> \
-</br>
+&nbsp;
+&nbsp;
+
+>Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> 
+
+&nbsp;
 
 ---
 
@@ -88,7 +97,7 @@ Again, this is useful if you want to know how many lines in a file contain the w
 
 This `grep` command option prints the searched line and `num` before and after the result.
 
-</br>
+&nbsp;
 
 **Example 1:**
 
@@ -106,6 +115,7 @@ This `grep` command option prints the searched line and `num` before and after t
 This command displays all the lines in the file `rr74.txt` located in the `./technical/biomed/` directory along with the line before and after the matching lines.
 This is useful to for getting context of any particular matched line.
 
+&nbsp;
 
 **Example 2:**
 
@@ -118,9 +128,12 @@ This is useful to for getting context of any particular matched line.
     
 This command displays all the lines in the .txt files located in the `./technical/911report/` directory along with two lines before and after the matching lines. In this case, only one line in the .txt files located in `./technical/911report/` contains the pattern _"creative"_.
 Again, this is useful to get the context of a matched line.
-</br></br>
->Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> \
-</br>
+&nbsp;
+&nbsp;
+
+>Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> 
+
+&nbsp;
 
 ---
 
@@ -128,7 +141,7 @@ Again, this is useful to get the context of a matched line.
 
 This `grep` option displays the lines that do not contain the specified pattern.
 
-</br>
+&nbsp;
 
 **Example 1:**
 
@@ -149,6 +162,8 @@ This `grep` option displays the lines that do not contain the specified pattern.
 
 This command displays the lines in the file `Wingates_winds.txt` located in `./technical/government/Media" that do not contain the letter _"a"_.
 This is possibly useful when you want to find lines where you don't want a certain word.
+
+&nbsp;
 
 
 **Example 2:**
@@ -171,6 +186,10 @@ This is possibly useful when you want to find lines where you don't want a certa
  
 This command finds all the lines in the file `rr74.txt` lcoated in `./technical/biomed/` that do not contain the letter _"a"_.
 Again, this is possibly useful when you want to find lines where you don't want a certain word or character.
-</br>
-</br>
+&nbsp;
+&nbsp;
+
+>Source used: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/> 
+
+&nbsp;
 ヽ(･∀･)ﾉ
