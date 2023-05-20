@@ -15,7 +15,7 @@ This is a quick tutorial on how to log into a course-specific account on `ieng6`
 
    The window should look something like this.
      
-   <img src="VSCode.png" width="40%" length="40%"> 
+   <img src="images/VSCode.png" width="40%" length="40%"> 
 
 3. *Skip to Step 4 if you are on MacOS.* If you are using a **Windows** device, make sure that you have 'git' downloaded.
 
@@ -27,7 +27,7 @@ This is a quick tutorial on how to log into a course-specific account on `ieng6`
     - On **MacOS**, press control + ` , or use the menu option Terminal→New Terminal.
     - On **Windows**, press Ctrl + ` .
  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Terminal1.png" width="25%" length="25%"> <img src="Terminal2.png" width="70%" length="70%">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Terminal1.png" width="25%" length="25%"> <img src="images/Terminal2.png" width="70%" length="70%">
 
 ---
         
@@ -47,11 +47,11 @@ For example: \
 3. You will be asked to enter the password to your CSE 15L course-specific account.
     > Note: What you type will not visibly appear in the terminal but will be inputed.
     
-    <img src="Password.png" width="75%" length="75%">
+    <img src="images/Password.png" width="75%" length="75%">
     
 4. Once you are successfully logged in, your terminal should display something like this.
 
-    <img src="Login.png" width="55%" length="55%"> 
+    <img src="images/Login.png" width="55%" length="55%"> 
     
     Your terminal is now connected to a computer in the CSE basement! Any commands you run on your terminal will run on that computer.
 
@@ -82,7 +82,7 @@ Here is a list of commands you can try running on both **your computer** and the
 
 Here is an example of a combination of the above commands:
 
-<img src="Commands.png" width="50%" length="50%">
+<img src="images/Commands.png" width="50%" length="50%">
 
 To **log out** of the remote server, use:
 
