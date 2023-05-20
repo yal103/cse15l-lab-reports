@@ -32,7 +32,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 <img src="images/gitClone.png" width="50%" length="50%">
 
 **Keys pressed:** \
-`git <space> clone <space> https://github.com/ucsd-cse15l-s23/lab71 <enter>`
+`git <space> clone <space> https://github.com/yal103/lab7 <enter>`
 
 * The `git clone` command (followed by the GitHub repository link) clones the repository into the ieng6 account.
 * Note: You can use `<CTRL-C>` and `<CTRL-V>` to copy and paste the repository link: `https://github.com/ucsd-cse15l-s23/lab71`.
@@ -84,3 +84,22 @@ IMAGE
     - `index1` is changed to `index2`.
 * `r2` does not change the mode to insert mode, not we do not need to press `<esc>`.
 * `:wq` followed by `<enter>` saves and exits out of the vim text editor.
+
+</br>
+
+## Step 8: Run the tests, demonstrating that they now succeed
+
+IMAGE
+
+**Keys pressed:** \
+`<up> <up> <up> <enter>` , `<up> <up> <up> <enter>`
+
+* The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in my command history, so I used the up arrow to access it.
+* Similarly, after the previous command was run, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 3 up in my command history, so I used the up arrow to access it.
+* The tests should pass this time.
+
+</br>
+
+## Step 9: Commit and push the resulting change to your Github account
+
+
