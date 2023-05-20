@@ -116,6 +116,4 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 The file should be updated in the GitHub repository, which the commit message:
 <img src="images/updatedFile.png" width="60%" length="60%">
 
-</br>
-
 （っ＾▿＾）
