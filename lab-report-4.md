@@ -70,7 +70,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 * Views the contents in `ListExamples.java` using the built-in _vim_ text editor.
 
-<img src="images/ListExamples.png" width="60%" length="60%">
+<img src="images/ListExamples.png" width="40%" length="40%">
 
 </br>
 
@@ -85,7 +85,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 * `r2` does not change the mode to insert mode, not we do not need to press `<esc>`.
 * `:wq` followed by `<enter>` saves and exits out of the vim text editor.
 
-<img src="images/ange.png" width="50%" length="50%"> <img src="images/changedIndex.png" width="50%" length="50%">
+<img src="images/ange.png" width="40%" length="40%"> <img src="images/changedIndex.png" width="40%" length="40%">
 
 </br>
 
@@ -104,11 +104,17 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 9: Commit and push the resulting change to your Github account
 
-IMAGE
+<img src="images/pushAndCommit.png" width="50%" length="50%">
 
 **Keys pressed:** \
-`git <space> add <space> ListExamples.java <enter>` \
+`git <space> add <spa（っ＾▿＾）ce> ListExamples.java <enter>` \
 `git <space> commit <space> -m <space> "Updated" <enter>` \
 `git <space> push <space> origin <space> main <enter>` 
 
 * The `git add`, `git commit`, and `git push` commands commit and push the changes made to `ListExamples.java` to the GitHub repository.
+
+The file should be updated in the GitHub repository, which the commit message:
+<img src="images/updatedFile.png" width="60%" length="60%">
+
+</br>
+（っ＾▿＾）
