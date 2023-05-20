@@ -18,7 +18,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 4: Log into ieng6
 
-<img src="images/sshLogin.png" width="50%" length="50%">
+<img src="images/sshLogin.png" width="60%" length="60%">
 
 **Keys pressed:** \
    `ssh <space> cs15lsp23mh@ieng6.ucsd.edu <enter>`
@@ -40,7 +40,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 6: Run the tests, demonstrating they fail
 
-<img src="images/failTest-lab7.png" width="50%" length="50%">
+<img src="images/failTest-lab7.png" width="60%" length="60%">
 
 **Keys pressed:** \
    `cd <space> lab7 <enter>`
