@@ -29,13 +29,13 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 5: Clone your fork of the repository from your Github account
 
-<img src="images/gitClone.png" width="50%" length="50%">
+<img src="images/cloneGit.png" width="50%" length="50%">
 
 **Keys pressed:** \
 `git <space> clone <space> https://github.com/yal103/lab7 <enter>`
 
 * The `git clone` command (followed by the GitHub repository link) clones the repository into the ieng6 account.
-* Note: You can use `<CTRL-C>` and `<CTRL-V>` to copy and paste the repository link: `https://github.com/ucsd-cse15l-s23/lab71`.
+* Note: You can use `<CTRL-C>` and `<CTRL-V>` to copy and paste the repository link: `https://github.com/yal103/lab71`.
 
 </br>
 
@@ -102,4 +102,11 @@ IMAGE
 
 ## Step 9: Commit and push the resulting change to your Github account
 
+IMAGE
 
+**Keys pressed:** \
+`git <space> add <space> ListExamples.java <enter>` \
+`git <space> commit <space> -m <space> "Updated" <enter>` \
+`git <space> push <space> origin <space> main <enter>` 
+
+* The `git add`, `git commit`, and `git push` commands commit and push the changes made to `ListExamples.java` to the GitHub repository.
