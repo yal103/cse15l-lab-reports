@@ -55,7 +55,7 @@ class StringServer {
 ### Screenshot #1
 `/add-message?s=firstWord`
 
-<img src="firstWord.png" width="50%" length="50%">
+<img src="images/firstWord.png" width="50%" length="50%">
 
 Which methods in your code are called? What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
@@ -102,7 +102,7 @@ How do the values of any relevant fields of the class change from this specific 
 ### Screenshot #2
 `/add-message?s=secondWord`
 
-<img src="secondWord.png" width="50%" length="50%">
+<img src="images/secondWord.png" width="50%" length="50%">
 
 Which methods in your code are called? What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 > The called methods are the same as in *Screenshot #1*.
@@ -172,11 +172,11 @@ public void testReverseInPlace() {
 3. Symptoms
     - Passed Test:
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="passedTest.png" width="75%" length="75%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/passedTest.png" width="75%" length="75%">
     
     - Failed Test:
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="testFail.png" width="75%" length="75%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/testFail.png" width="75%" length="75%">
 <br>
 
 
