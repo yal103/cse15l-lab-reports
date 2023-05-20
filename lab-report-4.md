@@ -5,7 +5,8 @@ PID: A17360266**
 
 This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](https://ucsd-cse15l-s23.github.io/week/week7/#timing-tasks).
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Setting Up (Steps 1 to 3)
 1. Delete any existing forks of the repository on GitHub account with contents found [here](https://github.com/ucsd-cse15l-s23/lab7).
@@ -14,7 +15,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 3. Optional: Start a timer if you are timing yourself!
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Step 4: Log into ieng6
 
@@ -25,7 +27,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 * The `ssh` command (followed by an account) is needed to log in to ieng6.
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Step 5: Clone your fork of the repository from your Github account
 
@@ -37,7 +40,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 * The `git clone` command (followed by the GitHub repository link) clones the repository into the ieng6 account.
 * Note: You can use `<CTRL-C>` and `<CTRL-V>` to copy and paste the repository SSH key: `git@github.com:yal103/lab7.git`.
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Step 6: Run the tests, demonstrating they fail
 
@@ -48,7 +52,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 * Changes to the cloned `lab7` directory
 
-</br>
+&nbsp;
 
 `javac <space> -cp <space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <space> *.java <enter>` 
    
@@ -61,7 +65,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
     - `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` followed by `<enter>`
     - `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` followed by `<enter>`
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Step 7: Edit the code file `ListExamples.java` to fix the failing test
 
@@ -72,7 +77,7 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 <img src="images/ListExamples.png" width="40%" length="40%">
 
-</br>
+&nbsp;
 
 `/ange <enter> <down> r2 :wq <enter>`
 
@@ -87,7 +92,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 <img src="images/ange.png" width="40%" length="40%"> <img src="images/changedIndex.png" width="40%" length="40%">
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 
@@ -100,7 +106,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 * Similarly, after the previous command was run, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 3 up in my command history, so I used the up arrow to access it.
 * The tests should pass this time.
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Step 9: Commit and push the resulting change to your Github account
 
