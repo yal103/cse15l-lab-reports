@@ -29,13 +29,13 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 5: Clone your fork of the repository from your Github account
 
-<img src="images/cloneGit.png" width="50%" length="50%">
+<img src="images/cloneSSH.png" width="50%" length="50%">
 
 **Keys pressed:** \
-`git <space> clone <space> https://github.com/yal103/lab7 <enter>`
+`git <space> clone <space> git@github.com:yal103/lab7.git <enter>`
 
 * The `git clone` command (followed by the GitHub repository link) clones the repository into the ieng6 account.
-* Note: You can use `<CTRL-C>` and `<CTRL-V>` to copy and paste the repository link: `https://github.com/yal103/lab71`.
+* Note: You can use `<CTRL-C>` and `<CTRL-V>` to copy and paste the repository SSH key: `git@github.com:yal103/lab7.git`.
 
 </br>
 
@@ -65,12 +65,12 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 7: Edit the code file `ListExamples.java` to fix the failing test
 
-IMAGE
-
 **Keys pressed:** \
 `vim <space> ListExamples.java <enter>`
 
 * Views the contents in `ListExamples.java` using the built-in _vim_ text editor.
+
+<img src="images/ListExamples.png" width="60%" length="60%">
 
 </br>
 
@@ -85,11 +85,13 @@ IMAGE
 * `r2` does not change the mode to insert mode, not we do not need to press `<esc>`.
 * `:wq` followed by `<enter>` saves and exits out of the vim text editor.
 
+<img src="images/ange.png" width="50%" length="50%"> <img src="images/changedIndex.png" width="50%" length="50%">
+
 </br>
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 
-IMAGE
+<img src="images/passTest-lab7.png" width="60%" length="60%">
 
 **Keys pressed:** \
 `<up> <up> <up> <enter>` , `<up> <up> <up> <enter>`
