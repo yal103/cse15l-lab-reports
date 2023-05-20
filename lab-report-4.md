@@ -14,6 +14,8 @@ This lab report reproduces the task from the CSE 15L Spring 2023 [Week 7 Lab](ht
 
 ## Step 4: Log into ieng6
 
+<img src="images/sshLogin.png" width="50%" length="50%">
+
 **Keys pressed:** \
    `ssh <space> cs15lsp23mh@ieng6.ucsd.edu <enter>`
 
