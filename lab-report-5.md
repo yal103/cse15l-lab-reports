@@ -153,6 +153,7 @@ It is looking in the root directory of the project.
     
     &nbsp;
  
+ 
  ## Part 2 - Reflection
  
- Something I found really cool during my lab experience in the second half of this quarter was `vimtutor`, which we used during the Week 7 lab. It was pretty cool that we can learn how to edit files directly from the terminal using `vim` FROM the terminal. I enjoyed learning the various useful vim shortcuts through the an interactive lesson in the terminal.
+ Something I found really cool during my lab experience in the second half of this quarter was `vimtutor`, which we used during the Week 7 lab. It was pretty cool that we can      learn how to edit files directly from the terminal using `vim` FROM the terminal. I enjoyed learning the various useful vim shortcuts through the an interactive lesson in the terminal.
